@@ -11,6 +11,13 @@ mkdir trimming
 mkdir assembly
 mkdir annotation
 ```
+
+# Activate the de_novo environment in conda
+
+```{BASH}
+conda activate de_novo
+```
+
 # Quality control
 ```{BASH}
 fastqc 1054_116-G3_S770-S540__GTCCTAAG-AGCTACCA__S15_R2_001.fastq.gz --outdir=fastqc/
